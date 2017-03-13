@@ -1,0 +1,78 @@
+<?php
+	session_start();
+	
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	<title> Estrutura </title>
+    <meta charset="ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../css/bootstrap.min.css" rel="stylesheet" />	
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="../style.css" />
+	<style type="text/css">
+       
+    </style>
+	</head>
+	<body>
+ 	
+	<!-- cabeçario -->
+	<section>	
+		<div class="container col-md-12  slider" id="cabecario">
+		  <h1 align="center">Sistemão de Login em PHP com comunicação em MySQL
+		  </h1>
+		  
+		</div>
+	</section>
+        <br><br>
+		
+	<br>
+	<section>	
+	<!-- conteudo -->    
+        <div class="row">
+			<div id="conteudo" class="col-md-9 col-sm-9">
+				<div id="tituloConteudo" >
+					<h1 align="center"> Crie seu cadastro! </h1>
+				</div>
+				<div id="textoconteudo" align="center" class="formDesign" style="font-size: 200%;">
+					<form action="../PHP/cadastro.php" method="POST">
+						<div class="form-group">
+							<label>nome: </label>
+							<input type="text" name="nomeUsuario" class="form-control" id="nome" placeholder="Nome">
+						</div>
+						<!--Email -->
+						<div class="form-group">
+							<label>E-mail: </label>
+							<input type="email" name="emailCadastro" class="form-control" id="email" placeholder="Email">
+						</div>
+						<!--Email -->
+						<div class="form-group">
+							<label>Senha: </label>
+							<input type="password" name="senhaCadastro" class="form-control" id="senha" placeholder="Senha">
+						</div>
+						<!--Cadastrar! -->
+						<div class="form-group">
+							<input type="submit" value="Cadastrar!" class="btn btn-default" style="font-size: 100%; margin: 20px;">  </button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+        <br><br>
+	</section>		
+    <!-- rodape da pagina -->
+    <section>  
+		<div align="center" class="col-md-12" id="rodape">
+                Lucas Gustavo Barbosa (c)
+				
+        <div>    
+	</section>	
+    <script src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/ProdutosJQ.js"></script>
+
+
+
+</body>
+</html>

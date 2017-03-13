@@ -1,0 +1,80 @@
+		
+		
+h1{
+    color: black;
+    
+}
+
+.slider{
+margin: 0 auto;
+float: none; 
+color: white;
+}
+
+ #rodape {
+            background-color: #232323;
+            position: relative;
+            bottom: 0;
+            height: 200px;
+			color: white;
+        }
+        #cabecario {
+            background-color: #bcbcbc;
+            height: 200px;
+        }
+        #centralizardiv{
+		margin: 0 auto;
+		float: none;
+		
+		}
+		#conteudologin {
+            background-color: #cdcdcd;
+            font-family: arial, verdana;
+			
+			
+        } 
+		#conteudo {
+            background-color: #cdcdcd;
+            margin: 0 auto ;
+			float: none;
+            font-family: arial, verdana;
+			position: relative;
+			background-color: #cdcdcd;
+        }
+        
+        #tituloConteudo {
+            background-color: #454545;
+			margin: 0px 0px 0px 0px;
+			position: relative;
+			
+        }
+		#textoconteudo {
+			background-color: #ababab;
+		}
+		#login {
+		background-color: #cdcdcd;
+		position:relative;
+		}
+		.inputlogin {
+		left: 82px;
+		position: absolute;
+	
+		}
+		
+		.container{
+		margin: 0 auto;
+		float: none;
+		background-color: #cdcdcd;
+	
+		}
+		
+		.formDesign{
+		font-size: 30px;
+		
+		}
+		
+		
+        
+        
+		
+	
